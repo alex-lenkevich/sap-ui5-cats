@@ -1,0 +1,21 @@
+{
+  "sap.app": {
+    "id": "app",
+    "type": "application",
+    "i18n": "i18n/i18n.properties"
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": ""
+    }
+  },
+  "sap.ui5": {
+    "rootView": {
+      "viewName": "app.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<mvc:View
+        controllerName="app.controller.App"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m">
+    <App>
+        <Page title="Cats">
+            <content>
+                <List items="{cats>/value}">
+                    <StandardListItem
+                            title="{cats>name}"
+                            description="{cats>origin}"
+                            info="{cats>temperament}" />
+                </List>
+            </content>
+        </Page>
+    </App>
+</mvc:View>
